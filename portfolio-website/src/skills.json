@@ -1,0 +1,26 @@
+[{
+  "image": "/images/python.png",
+  "name" : "python"
+},{
+  "image": "/images/js.png",
+  "name" : "javascript"
+},{
+  "image": "/images/html.png",
+  "name" : "html"
+},{
+  "image": "/images/css-3.png",
+  "name" : "css"
+},{
+  "image": "/images/letter-c.png",
+  "name" : "c"
+},{
+  "image": "/images/atom.png",
+  "name" : "react"
+},{
+  "image": "/images/java.png",
+  "name" : "java"
+},{
+  "image": "/images/social.png",
+  "name" : "git"
+}
+]

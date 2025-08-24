@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "title": "React Jobs",
+    "type": "Full-Stack Web App",
+    "description": "A job application platform built using React and React Router, featuring dynamic routes and form handling.",
+    "date": "2025-07",
+    "inProgress": false,
+    "image": "/images/reactjobs2.png",
+    "link": "https://github.com/yourusername/react-jobs"
+  },
+  {
+    "id": "2",
+    "title": "Concrete Strength Predictor",
+    "type": "Machine Learning",
+    "description": "A regression model that predicts the compressive strength of concrete based on its ingredients using Python and scikit-learn.",
+    "date": "2025-04",
+    "inProgress": false,
+    "image": "/images/concretestrength.png",
+    "link": "https://github.com/yourusername/concrete-strength-predictor"
+  },
+  {
+    "id": "3",
+    "title": "Amazon Clone",
+    "type": "Frontend Web App",
+    "description": "A clone of Amazon's UI built with vanilla JavaScript, HTML, and CSS, including cart functionality and local storage for persistence.",
+    "date": "2024-12",
+    "inProgress": false,
+    "image": "/images/amazonclone.png",
+    "link": "https://github.com/yourusername/amazon-clone"
+  },
+  {
+    "id": "4",
+    "title": "Weather App",
+    "type": "API Integration App",
+    "description": "A responsive weather dashboard that fetches real-time weather data from an external API and displays it using JavaScript.",
+    "date": "2024-11",
+    "inProgress": false,
+    "image": "/images/weatherapp.png",
+    "link": "https://github.com/yourusername/weather-app"
+  },
+  {
+    "id": "5",
+    "title": "Alarm Clock",
+    "type": "Utility App",
+    "description": "A functional alarm clock built using HTML, CSS, and JavaScript that allows users to set and manage alarms in real-time.",
+    "date": "2024-09",
+    "inProgress": false,
+    "image": "/images/alarm.png",
+    "link": "https://github.com/yourusername/alarm-clock"
+  },
+  {
+    "id": "6",
+    "title": "Stopwatch",
+    "type": "Utility App",
+    "description": "A simple stopwatch application with start, stop, reset, and lap functionality, built using JavaScript and CSS animations.",
+    "date": "2024-08",
+    "inProgress": false,
+    "image": "/images/stopwatch.png",
+    "link": "https://github.com/yourusername/stopwatch"
+  }
+]
