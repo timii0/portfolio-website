@@ -1,49 +1,45 @@
-import React from 'react'
+// src/components/Skills.jsx
+import React from 'react';
+
+const skills = [
+  { src: '/images/python.png', alt: 'Python' },
+  { src: '/images/js.png', alt: 'JavaScript' },
+  { src: '/images/html.png', alt: 'HTML' },
+  { src: '/images/css-3.png', alt: 'CSS' },
+  { src: '/images/letter-c.png', alt: 'C' },
+  { src: '/images/atom.png', alt: 'React' },
+  { src: '/images/java.png', alt: 'Java' },
+  { src: '/images/social.png', alt: 'Git' }
+];
 
 const Skills = () => {
   return (
-    <div className='flex flex-wrap justify-center gap-8 min-h-screen bg-gradient-to-br from-gray-900 via-indigo-900 to-black text-white p-6'>
-      <div className='bg-black w-32 h-32 flex items-center justify-center m-8 rounded-xl '>
+    <section
+      id="skills"
+      className="py-16 border-t border-slate-200 bg-white rounded-3xl shadow-sm"
+    >
+      <div className="max-w-5xl mx-auto px-6 md:px-10">
+        <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-8 text-center">
+          Skills & tools
+        </h2>
 
-      <img src="/images/python.png" alt="python" className='w-16 object-cover ' />
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
+          {skills.map((skill) => (
+            <div
+              key={skill.alt}
+              className="bg-slate-50 rounded-2xl h-28 flex items-center justify-center shadow-sm"
+            >
+              <img
+                src={skill.src}
+                alt={skill.alt}
+                className="w-12 h-12 object-contain"
+              />
+            </div>
+          ))}
+        </div>
       </div>
+    </section>
+  );
+};
 
-      <div className='bg-black w-32 h-32 flex items-center justify-center m-8 rounded-xl '>
-
-      <img src="/images/js.png" alt="javascript" className='w-16 object-cover ' />
-      </div>
-
-      <div className='bg-black w-32 h-32 flex items-center justify-center m-8 rounded-xl '>
-
-      <img src="/images/html.png" alt="html" className='w-16 object-cover ' />
-      </div>
-
-      <div className='bg-black w-32 h-32 flex items-center justify-center m-8 rounded-xl '>
-
-      <img src="/images/css-3.png" alt="css" className='w-16 object-cover ' />
-      </div>
-
-      <div className='bg-black w-32 h-32 flex items-center justify-center m-8 rounded-xl'>
-
-      <img src="/images/letter-c.png" alt="c" className='w-16 object-cover ' />
-      </div>
-
-      <div className='bg-black w-32 h-32 flex items-center justify-center m-8 rounded-xl '>
-
-      <img src="/images/atom.png" alt="react" className='w-16 object-cover ' />
-      </div>
-
-      <div className='bg-black w-32 h-32 flex items-center justify-center m-8 rounded-xl '>
-
-      <img src="/images/java.png" alt="java" className='w-16 object-cover ' />
-      </div>
-
-      <div className='bg-black w-32 h-32 flex items-center justify-center m-8 rounded-xl '>
-
-      <img src="/images/social.png" alt="git" className='w-16 object-cover ' />
-      </div>
-    </div>
-  )
-}
-
-export default Skills
+export default Skills;
